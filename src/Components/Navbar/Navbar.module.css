@@ -1,0 +1,59 @@
+.headerNavbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/* .logoDiv {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.npgLink {
+    color: black;
+} */
+
+.navMenuBtn {
+    color: black;
+}
+
+.navMenu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.navMenu > li {
+    padding: 10px 20px;
+}
+
+.navMenu > li:hover {
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+.linksBar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.socials {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+}
+
+.socialLink:hover {
+    border: 3px solid black;
+    border-radius: 50%;
+}
